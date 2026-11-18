@@ -1,0 +1,30 @@
+{
+  "top1/batched/orig_router": {
+    "moe/router": 18.3,
+    "moe/dispatch": 3.42,
+    "moe/expert_compute": 2.72,
+    "moe/combine": 1.53,
+    "moe_total_pct": 25.97
+  },
+  "top1/batched/fast_router": {
+    "moe/router": 10.71,
+    "moe/dispatch": 3.14,
+    "moe/expert_compute": 3.19,
+    "moe/combine": 1.32,
+    "moe_total_pct": 18.36
+  },
+  "top2_matched/batched/orig_router": {
+    "moe/router": 19.11,
+    "moe/dispatch": 2.71,
+    "moe/expert_compute": 2.16,
+    "moe/combine": 1.57,
+    "moe_total_pct": 25.55
+  },
+  "top2_matched/batched/fast_router": {
+    "moe/router": 12.57,
+    "moe/dispatch": 3.92,
+    "moe/expert_compute": 2.93,
+    "moe/combine": 2.27,
+    "moe_total_pct": 21.69
+  }
+}

@@ -1,0 +1,6 @@
+data_cache/
+__pycache__/
+*.pt
+results/trace_*.json
+results.zip
+.ipynb_checkpoints/

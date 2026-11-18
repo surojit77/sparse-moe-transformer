@@ -1,0 +1,36 @@
+{
+  "top1/naive": {
+    "moe/router": 11.22,
+    "moe/naive_dispatch_and_compute": 36.42,
+    "moe_total_pct": 47.64
+  },
+  "top2_matched/naive": {
+    "moe/router": 8.79,
+    "moe/naive_dispatch_and_compute": 28.18,
+    "moe_total_pct": 36.97
+  },
+  "top1/sorted": {
+    "moe/router": 10.61,
+    "moe/sorted_dispatch_and_compute": 17.71,
+    "moe_total_pct": 28.32
+  },
+  "top2_matched/sorted": {
+    "moe/router": 11.62,
+    "moe/sorted_dispatch_and_compute": 17.59,
+    "moe_total_pct": 29.21
+  },
+  "top1/batched": {
+    "moe/router": 11.83,
+    "moe/dispatch": 3.55,
+    "moe/expert_compute": 3.19,
+    "moe/combine": 1.38,
+    "moe_total_pct": 19.95
+  },
+  "top2_matched/batched": {
+    "moe/router": 12.79,
+    "moe/dispatch": 3.85,
+    "moe/expert_compute": 3.08,
+    "moe/combine": 2.26,
+    "moe_total_pct": 21.98
+  }
+}
